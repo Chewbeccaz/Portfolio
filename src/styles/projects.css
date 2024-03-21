@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Sigmar+One&display=swap");
+
 .projects-container {
   background-color: #fdf3dd;
   min-height: 600px;
@@ -17,7 +19,8 @@
 
 .text-block {
   background-color: #d6e8f7;
-  min-height: 300px;
+  min-height: 400px;
+  min-width: 250px;
   border-radius: 8px;
   padding: 1rem;
   margin-top: 20px;
@@ -27,7 +30,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  padding: 200px 0;
+  padding: 100px 0;
 }
 
 .project1,
@@ -36,33 +39,71 @@
 .project4,
 .project5,
 .project6 {
-  min-height: 200px;
-  min-width: 150px;
-  border-radius: 8px;
+  min-height: 250px;
+  min-width: 200px;
+  border-radius: 12px;
   padding: 1rem;
   margin-top: 20px;
+  font-family: "Sigmar One", sans-serif;
+  font-size: 1.3rem;
 }
 
-.project1 {
+.searchify-img,
+.restaurant-img,
+.tbr-img,
+.weatherapp-img,
+.rockpaperscissor-img,
+.comingSoon-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 45% 50%;
+  margin-bottom: 18px;
+}
+/* .project2,
+.project3,
+.project4,
+.project5,
+.project6 { */
+
+.project1,
+.project1-link {
   background-color: #caaacd;
+  color: #fdf3dd;
+  text-decoration: none;
 }
 
-.project2 {
+.project2,
+.project2-link {
   background-color: #cb962e;
+  color: #fdf3dd;
+  text-decoration: none;
 }
 
-.project3 {
+.project3,
+.project3-link {
   background-color: #ef601e;
+  color: #d6e8f7;
+  text-decoration: none;
 }
 
-.project4 {
+.project4,
+.project4-link {
   background-color: #ef601e;
+  color: #d6e8f7;
+  text-decoration: none;
 }
 
-.project5 {
+.project5,
+.project5-link {
   background-color: #d6e8f7;
+  color: #caaacd;
+  text-decoration: none;
 }
 
 .project6 {
   background-color: #f1dfb6;
+  color: #ef601e;
+  text-decoration: none;
 }
