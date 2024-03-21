@@ -1,7 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+
 .home-container {
-  background-color: #fdf3dd;
+  background-color: #fff0ce;
   min-height: 600px;
+  padding-top: 200px;
+  padding: 200px 0;
 }
+.section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
+}
+
+.left-text-block {
+  width: 50%;
+  text-align: left;
+  /* margin-left: 100px; */
+}
+
+.left-text-block h1 {
+  color: #caaacd;
+  font-size: 6rem;
+}
+
+.left-text-block h3 {
+  color: #373d3be4;
+  font-size: 2rem;
+  font-family: "Marcellus", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
 #root {
   text-align: center;
+}
+
+.profile-img {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 75% 100%;
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.button-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 2%;
+  margin-right: 140px;
+}
+
+.cv-btn {
+  font-family: "Marcellus", serif;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 0.8rem;
+  background: #f1dfb6;
+  color: #cb962e;
+  border: none;
+}
+
+.about-btn {
+  font-family: "Marcellus", serif;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 0.8rem;
+  background: #ef601e;
+  color: #fdf3dd;
+  border: none;
+}
+
+.cv-btn:hover {
+  background-color: #d4c49e;
+  cursor: pointer;
+}
+
+.about-btn:hover {
+  background: #d85519;
+  cursor: pointer;
 }
