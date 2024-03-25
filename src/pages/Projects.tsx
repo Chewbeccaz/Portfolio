@@ -13,7 +13,20 @@ export const Projects = () => {
       <div className="text-left-block">
         <h3>Projects</h3>
         <div className="text-block">
-          <p>Här är det lite mera text.</p>
+          <p>
+            Here are some of my projects I've worked on, involving React,
+            Express, Node.js, Auth0, Google Custom Search and different API's.
+            <br />
+            <br />
+            You can click on the project title to view the project.
+          </p>
+          <a href="https://github.com/Chewbeccaz" className="github-link">
+            <h4>
+              check out my
+              <br />
+              Github Page
+            </h4>
+          </a>
         </div>
       </div>
 

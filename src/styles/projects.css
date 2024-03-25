@@ -22,11 +22,30 @@
 
 .text-block {
   background-color: #d6e8f7;
-  min-height: 400px;
-  min-width: 250px;
+  min-height: 300px;
+  max-width: 250px;
   border-radius: 8px;
+  padding: 2rem;
+  margin-top: 20px;
+}
+
+.text-block p {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  font-family: "Marcellus", serif;
+  color: #373d3be4;
+}
+
+.github-link {
+  min-height: 250px;
+  min-width: 200px;
+  border-radius: 12px;
   padding: 1rem;
   margin-top: 20px;
+  font-family: "Sigmar One", sans-serif;
+  font-size: 1.5rem;
+  color: #caaacd;
+  text-decoration: none;
 }
 
 .projects-box {
