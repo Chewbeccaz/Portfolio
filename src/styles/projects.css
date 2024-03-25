@@ -11,10 +11,13 @@
 
 .text-left-block h3 {
   color: #373d3be4;
-  font-size: 2rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   font-family: "Marcellus", serif;
   font-weight: 200;
   font-style: normal;
+  text-align: start;
 }
 
 .text-block {
